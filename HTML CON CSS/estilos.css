@@ -1,0 +1,26 @@
+body{
+    background-color: #cad2c5;
+}
+
+h1{
+    color:#52796f;
+    background-color: #2f3e46;
+    text-align: center;
+}
+p{
+ background-color: #84a98c;   
+ padding: 15px;
+ border: 10px solid #354f52;
+ margin: 40px 100px 40px 10px;
+ /* El margin auto es para juntarlos o centrarlos */
+ margin:auto;
+ text-align: center;
+ /*
+ margin-top: 40px;
+margin-right: 10px;
+margin-bottom: 10px;
+*/
+
+ color: white;
+
+}
