@@ -1,0 +1,24 @@
+h1{
+    color: blueviolet;
+}
+
+a:link, a:visited{
+    background-color: black;
+    color: aquamarine;
+    padding: 15px 15px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+
+ 
+
+a:hover{
+    color: yellowgreen;
+    text-decoration: underline;
+}
+
+a:active{
+    color: tomato;
+    text-decoration: underline;
+}
