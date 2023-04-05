@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas en HTML </title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <table>
+        <caption>Listado de personas</caption>
+        <tr>
+            <!--El th colspan ="" Te puede juntar las celdas que usaras para la cabeza principal-->
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Juan</td>
+            <td>Perez</td>
+            <td>@Email</td>
+        </tr>
+        <tr>
+            <td>Luis</td>
+            <td>Sanchez</td>
+            <td>@Email</td>
+        </tr>
+
+    </table>
+
+    <br>
+<h1>Ejemplo de tabla 2 con un colspan en th</h1>
+    <table>
+        <tr>
+            <!--El th colspan ="" Te puede juntar las celdas que usaras para la cabeza principal-->
+            <th colspan="2">Nombre</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Juan</td>
+            <td>Perez</td>
+            <td>@Email</td>
+        </tr>
+        <tr>
+            <td>Luis</td>
+            <td>Sanchez</td>
+            <td>@Email</td>
+        </tr>
+    </table>
+<br>
+<h2>Con el rowspan se pueden juntar 2 celdas </h2>
+    <table>
+        <tr>
+            <!--Con el rowspan se pueden juntar 2 celdas o que se expanda-->
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Juan</td>
+            <td>Perez</td>
+            <td rowspan="2">@Email</td>
+        </tr>
+        <tr>
+            <td>Luis</td>
+            <td>Sanchez</td>
+        </tr>
+    </table>
+</body>
+</html>
